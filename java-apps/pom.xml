@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.intrade.tsg</groupId>
+    <artifactId>tsg-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>tsg-parent</name>
+    <description>Intrade tsg parent project</description>
+    <url>http://tsg.intrade.com</url>
+    <modules>
+        <module>tsg-module</module>
+        <module>tsg-solution</module>
+        <module>tsg-web-solution</module>
+    </modules>
+    <properties>
+    </properties>
+    <dependencyManagement>
+
+    </dependencyManagement>
+    <dependencies>
+    </dependencies>
+</project>
