@@ -13,7 +13,7 @@
     <artifactId>tsg-web-solution</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>tsg-module</name>
+    <name>tsg-web-module</name>
     <description>Intrade tsg web deployable solution</description>
 
     <modules>
