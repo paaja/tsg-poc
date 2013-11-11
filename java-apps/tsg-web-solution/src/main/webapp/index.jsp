@@ -5,6 +5,9 @@
   <title></title>
 </head>
 <body>
- Hi from TSG: <%= new Date() %>
+MVC link: <a href="/index.do">index.do</a><br/>
+ Hi from TSG: <%= new Date() %><br/>
+
+Value from MVC (HomePageController): ${dateTime}<br/>
 </body>
 </html>
