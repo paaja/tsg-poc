@@ -9,5 +9,6 @@ MVC link: <a href="/index.do">index.do</a><br/>
  Hi from TSG: <%= new Date() %><br/>
 
 Value from MVC (HomePageController): ${dateTime}<br/>
+something: ${something}<br/>
 </body>
 </html>

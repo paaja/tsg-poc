@@ -29,9 +29,29 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
 
+        <!-- Tomcat needs commons-logging or we should do:
+            http://hwellmann.blogspot.cz/2012/11/logging-with-slf4j-and-logback-in.html
+            -->
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <!-- Allowing Spring to use slf4j and logback -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
